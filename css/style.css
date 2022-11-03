@@ -29,23 +29,30 @@ p {
     position: relative;
     padding-top: 100px;
 }
-
+.profile-picture {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
 }
+.python-gif {
+    width: 300px;
+    height: 300px;
+}
+.network-image {
+    width: 300px;
+    height: 300px;
+}
+.middle-container {
 
-.top-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
 }
 
 .bottom-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+
 }
 
 .bottom-cloud {
@@ -53,3 +60,35 @@ p {
     left: 300px;
     bottom: 200px;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Linkedin */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  /* Github */
+  .fa-github {
+    background: black;
+    color: white;
+  }
