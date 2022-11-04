@@ -5,6 +5,7 @@ body {
     font-family: 'Merriweather', serif;
     color: #40514E;
 }
+
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -12,16 +13,19 @@ h1 {
     color: #66BFBF;
     line-height: 2;
 }
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
 }
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E
 }
+
 hr {
     margin-top: 50px;
     border-style: none;
@@ -32,6 +36,10 @@ hr {
     width: 10%;
 }
 
+p {
+    line-height: 2;
+}
+
 /* class selection */
 .first-section {
     background-color: #EAF6F6;
@@ -39,82 +47,87 @@ hr {
     position: relative;
     padding-top: 100px;
 }
+
 .profile-picture {
     margin-top: 30px;
     width: 300px;
     height: 300px;
 }
+
 .profile {
     width: 50%;
     text-align: center;
     margin: auto;
 }
+
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
 }
+
 .python-gif {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
+
 .network-image {
     width: 25%;
     float: right;
     margin-left: 30px;
 }
-.middle-container {
-
-}
 
 .bottom-container {
     background-color: #66BFBF;
 }
+
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
+
 .bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 200px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 50px auto 50px auto
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
+    margin: 25px 25px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  /* Linkedin */
-  .fa-linkedin {
+}
+
+/* Linkedin */
+.fa-linkedin {
     background: #55ACEE;
     color: white;
-  }
-  
-  /* Github */
-  .fa-github {
+}
+
+/* Github */
+.fa-github {
     background: black;
     color: white;
-  }
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -122,17 +135,17 @@ hr {
     background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
     background-image: -o-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -140,12 +153,15 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-  }
+}
+
 .bottom-signature {
     font-size: 0.75rem;
     color: #EAF6F6;
-  }
+    margin: 0;
+    padding: 0;
+}
+
 .contact-me {
     margin: 50px;
-  }
-  
+}
